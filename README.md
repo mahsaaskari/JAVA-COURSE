@@ -1,6 +1,2 @@
 # JAVA-COURSE
-Mahsa Askari
-Matrikelnummer  7216484
-Winter Sem 2023
-There are 3 branches with names Hometast 1,Hometask 2,Hometask 3.
-In each branch I upload the files for each tasks to its related branch.each file consist of readme file with short descriptions.
+Mahsa Askari. Matriculation Number 7216484. This branch contains 4 different classes.The class Engine defines a superclass Engine and three subclasses: CombustionEngine, ElectricEngine, and HybridEngine.subclasses inherits all the properties and behaviors from the Engine class.engin superclass has three instance variables: type: The engine type (e.g., "gasoline" or "diesel"),horsePower: The engine's horsepower rating,displacement: The engine's displacement, measured in cubic centimeters (cc) or liters (L).The Manufacture class has characteristics of a manufacturing company in a class with variables like name of the car manufacturer,location is the country of origin and the founded year of the car. the vehicle superclass has three subclasses : ICEV, BEV, HybridV.it has on abstract methode of showcharasterictics .They inherit the engine and manufacture properties from the parent class.They override the ShowCharacteristics() method to display details about the vehicle, engine, and manufacturer specific to their type.
