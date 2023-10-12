@@ -1,7 +1,8 @@
 # JAVA-COURSE
 Mahsa Askari 
 Matriculation Number 7216484
-This Branch Contains 3 files.
+This Branch Contains 4 files.
 The CircleAndPlanets Class defines the main method, which calculates and displays the radius of a circle given its area, as well as the volumes of the Earth and the Sun and the ratio between them.
+The Primes class finds and prints prime numbers up to a certain maximum value.We have a maximum value we want to search for prime numbers (in this code, it's set to 50).We start with the number 2 because 2 is the first prime number.We check each number from 2 to the maximum value to see if it's a prime number. To do this, we see if it has any factors.We use a loop inside another loop. The inner loop checks numbers from 2 up to the square root of the number we're currently looking at. If any of these numbers can multiply the current number without leaving a remainder, then it's not a prime number.If we find a factor, we stop looking at that number and move on to the next number.If we don't find any factors (in other words, if it's not divisible by any of the numbers we checked), then we know it's a prime number.We print all the prime numbers we find.
 The Stringcharacters classs analyzes a given text to count the number of vowels, consonants, and spaces and then prints them.
 The WordSorter Class defines the soliloquy variable, which contains a text passage.The text is split into words using a regular expression that matches alphabetical characters and apostrophes.Empty strings are removed from the array, and the cleaned words are stored in the cleanedWords array.The code uses the bubble sort algorithm to sort the cleaned words in alphabetical order, ignoring case.Finally, the sorted words are printed.
